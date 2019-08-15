@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void onSwitchPuppy(View view) {
         ImageView puppyImageView = (ImageView) findViewById(R.id.puppyImageView);
-
+        puppyImageView.setImageResource(R.drawable.puppy2);
         Log.i("Info", "Switch button was clicked.");
     }
 }
